@@ -44,14 +44,14 @@ Create a new project. In the **Build Environment** section of the project, choos
 1. Select the global shorthands you defined earlier for the Polyspace installation folder and Polyspace Access server.
 2. Select an username and encrypted password for Polyspace Access. You can also add new users with the **Add** button. The username and password gets stored in the Credentials plugin. You can edit or delete users (or add new users) directly in the Credentials plugin.
 
-**Note**: Obtain an encrypted form of a Polyspace Access password using `polyspace-access -encrypt-password`. See [polyspace-access](https://www.mathworks.com/help/bugfinder/ref/polyspaceaccess.html).
+**Note**: Obtain an encrypted form of a Polyspace Access password using `polyspace-access -encrypt-password`. See [polyspace-access](https://www.mathworks.com/help/polyspace_access/ref/polyspace-access-command.html).
 
 ### Step 3: Enter Build Scripts for Polyspace Analysis
 
 In the **Build** section of the project, select **Execute shell** or **Execute Windows batch command**. Enter a script that uses the Polyspace executables:
 
 * [polyspace-bug-finder-server](https://www.mathworks.com/help/bugfinder/ref/polyspacebugfinderservercommand.html) or [polyspace-code-prover-server](https://www.mathworks.com/help/codeprover/ref/polyspacecodeproverservercommand.html) to run Polyspace Bug Finder or Polyspace Code Prover.
-* [polyspace-access](https://www.mathworks.com/help/bugfinder/ref/polyspaceaccess.html) to upload analysis results to the Polyspace Access server.
+* [polyspace-access](https://www.mathworks.com/help/polyspace_access/ref/polyspace-access-command.html) to upload analysis results to the Polyspace Access server.
 
 For other Polyspace commands, see the documentation of
 [Polyspace Bug Finder Server](https://www.mathworks.com/help/bugfinder/) or
